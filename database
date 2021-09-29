@@ -1,0 +1,26 @@
+create table books
+{
+  books_id int(11) Primary key,
+  book_name varchar(45),
+  author_name varchar(45),
+  book_description varchar(445),
+  book_price varchar(25)
+};
+ 
+create table electronics
+{
+  electronics_id int(11) Primary key,
+  brand_name varchar(45),
+  store_name varchar(45),
+  brand_description varchar(445),
+  brand_price varchar(25)
+}; 
+
+create table icecream
+{
+  icecream_id int(11) Primary key,
+  icecream_name varchar(45),
+  store_name varchar(45),
+  icecream_description varchar(445),
+  icecream_price varchar(25)
+}; 
